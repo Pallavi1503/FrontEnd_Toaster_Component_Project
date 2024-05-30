@@ -1,0 +1,29 @@
+.button{
+    border:solid 1px rgb(180, 117, 117);
+    width:70px;
+    height:70px;
+    background-color: rgb(208, 208, 233);
+}
+
+.tictactoe{
+    display: grid;
+    width: 20px;
+    margin-left: 30%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.reset{
+    width: 200px;
+    height: 30px;
+    color: rgb(72, 8, 133);
+    font-weight: 800;
+    font-size: 16px;
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+
+.winner{
+    color: rgb(12, 196, 12);
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
